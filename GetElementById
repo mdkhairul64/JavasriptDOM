@@ -1,0 +1,30 @@
+//Html code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <h1 id="heading1">This is a heading1</h1>
+
+    <h1 id="heading2">This is a heading2</h1>
+    <p id="para">I am paragraph</p>
+   <script src="index.js"></script>
+   
+</body>
+</html>
+
+
+//*****  javascriptcode
+
+var myheading=document.getElementById("heading1").innerHTML="Hello";
+myheading.innerHTML="Hello";
+document.getElementById("para").innerHTML="Bye";
+
+///////////// to select by class name or tagname i should be defined their index because they are collection
+
+document.getElementsByClassName("para1")[0].innerHTML="Bye"
